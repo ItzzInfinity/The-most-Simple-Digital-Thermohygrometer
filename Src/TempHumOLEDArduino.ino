@@ -77,7 +77,7 @@ void loop() {
   display.print(int(humidity));
   display.print(F("%"));
 
-                                                                              // Display humidity
+                                                                              // Display Feel's Like (Temp Index)
   display.setCursor(0, 40);
   display.setTextSize(1);
   display.print(F("Feels like: "));
